@@ -8,15 +8,54 @@
 
         table {
             border-spacing: 15px;
+            text-align: center;
         }
 
         hr {
-            border-style: dotted none none none;
-            border-width: 5px;
-            width: 5%;
+            border-style: line none none none;
+            border-width: 2px;
+            width: 90%;
             color: #3f3f44;
         }
-        
-        table{
+         
+        th{
+            font-size: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p{
+            font-size: 17.5px;
+        }
+
+        h1{
             text-align: center;
         }
+/* 
+    > symbol meand that .container will target elements that are Direct children 
+    * symbol means all elements
+    > * combined means that it will target all elements that are direct children
+*/
+        .container > * {
+            display:inline-block;
+            background-color:lightgreen ;
+
+        }
+        .col-25{
+            width: 25%;
+        }
+
+        .col-45{
+            width: 45%;
+        }
+
+        .tablecenter{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .divcenter {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+          }
